@@ -54,7 +54,7 @@ CSS custom properties in `src/styles/variables.css` define the entire design sys
 
 ## Screenshots
 
-_(<img width="1920" height="1011" alt="Screenshot 2026-04-21 221901" src="https://github.com/user-attachments/assets/ade39100-088f-4f22-b423-0b6aa7020352" /><img width="1920" height="1020" alt="Screenshot 2026-04-21 221617" src="https://github.com/user-attachments/assets/fe1540fd-fdb0-4bcd-b0f4-47f7e67f58c4" />
+_(<img width="1920" height="1020" alt="Screenshot 2026-04-21 221617" src="https://github.com/user-attachments/assets/fe1540fd-fdb0-4bcd-b0f4-47f7e67f58c4" /<img width="1920" height="1011" alt="Screenshot 2026-04-21 221901" src="https://github.com/user-attachments/assets/ade39100-088f-4f22-b423-0b6aa7020352" />>
 
 
 ## Project Structure
