@@ -1,0 +1,39 @@
+.card {
+  background: var(--color-card-bg);
+  border-radius: var(--border-radius-card);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.cardHeader {
+  padding: 32px 32px 0;
+}
+
+.productName {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+.cardImage {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  object-position: bottom;
+  transition: transform 0.3s ease;
+  margin-top: auto;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.03);
+}

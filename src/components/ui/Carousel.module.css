@@ -1,0 +1,66 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carouselTrack {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carouselSlide {
+  flex-shrink: 0;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+/* Default: 1 card on mobile */
+.carouselSlide {
+  width: 100%;
+}
+
+.arrowContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.arrowButton {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color var(--transition-base);
+  font-size: 18px;
+  color: var(--color-text-dark);
+}
+
+.arrowButton:hover:not(:disabled) {
+  background-color: #e0e0e0;
+}
+
+.arrowButton:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Tablet: 2 cards */
+@media (min-width: 768px) {
+  .carouselSlide {
+    width: 50%;
+  }
+}
+
+/* Desktop: 3 cards */
+@media (min-width: 1200px) {
+  .carouselSlide {
+    width: 33.3333%;
+  }
+}

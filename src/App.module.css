@@ -1,0 +1,37 @@
+.app {
+  min-height: 100vh;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.errorMessage {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  margin-bottom: 24px;
+}
+
+.retryButton {
+  background: var(--gradient-main);
+  border: none;
+  border-radius: var(--border-radius-btn);
+  padding: 12px 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity var(--transition-base), transform var(--transition-base);
+}
+
+.retryButton:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}

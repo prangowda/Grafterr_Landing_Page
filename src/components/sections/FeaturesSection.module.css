@@ -1,0 +1,101 @@
+.featuresSection {
+  position: relative;
+  padding: var(--section-padding);
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.titleArea {
+  text-align: center;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.sectionTitle {
+  font-size: var(--font-size-section-title);
+  font-weight: 800;
+  color: var(--color-text-dark);
+  line-height: 1.25;
+}
+
+.titleAccent {
+  color: var(--color-primary);
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--color-text-mid);
+  text-align: center;
+  max-width: 620px;
+  margin: 12px auto 0;
+  line-height: 1.7;
+}
+
+/* Divider with center pill accent */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto 48px;
+  max-width: 200px;
+}
+
+.dividerLine {
+  flex: 1;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.dividerPill {
+  width: 60px;
+  height: 3px;
+  background-color: var(--color-text-dark);
+  border-radius: 2px;
+  margin: 0 8px;
+}
+
+/* Skeleton layout for loading state */
+.skeletonCards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.skeletonCard {
+  flex: 1;
+  max-width: 360px;
+}
+
+.fadeIn {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .skeletonCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skeletonCard {
+    width: 100%;
+    max-width: 100%;
+  }
+}

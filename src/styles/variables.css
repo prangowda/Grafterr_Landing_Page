@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #3B82F6;
+  --color-accent: #F97316;
+  --color-text-dark: #111111;
+  --color-text-mid: #555555;
+  --color-bg: #ffffff;
+  --color-card-bg: #f9f9f9;
+  --font-family: 'Inter', sans-serif;
+  --font-size-hero: clamp(36px, 5vw, 56px);
+  --font-size-section-title: clamp(28px, 3.5vw, 42px);
+  --font-size-body: 18px;
+  --border-radius-card: 16px;
+  --border-radius-btn: 50px;
+  --container-max-width: 1200px;
+  --section-padding: 80px 24px;
+  --gradient-main: linear-gradient(90deg, #60A5FA 0%, #F97316 100%);
+  --transition-base: 0.2s ease;
+}

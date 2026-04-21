@@ -1,0 +1,23 @@
+.gradientButton {
+  background: linear-gradient(90deg, #60A5FA, #F97316);
+  border: none;
+  border-radius: 50px;
+  padding: 14px 40px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: var(--font-family);
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.gradientButton:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.gradientButton:active {
+  transform: scale(0.98);
+}
