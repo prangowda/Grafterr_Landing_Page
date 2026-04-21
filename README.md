@@ -53,8 +53,10 @@ CSS custom properties in `src/styles/variables.css` define the entire design sys
 - **Desktop** (1200px+): 3 carousel cards, full layout
 
 ## Screenshots
+<img width="1920" height="1020" alt="Screenshot 2026-04-21 221617" src="https://github.com/user-attachments/assets/c7b708b8-251f-4d5e-9d8a-16cf9c823d22" />
+<img width="1920" height="1011" alt="Screenshot 2026-04-21 221901" src="https://github.com/user-attachments/assets/c8c15847-4744-47a8-ac2a-dc561b95e6c2" />
 
-_(<img width="1920" height="1020" alt="Screenshot 2026-04-21 221617" src="https://github.com/user-attachments/assets/fe1540fd-fdb0-4bcd-b0f4-47f7e67f58c4" /<img width="1920" height="1011" alt="Screenshot 2026-04-21 221901" src="https://github.com/user-attachments/assets/ade39100-088f-4f22-b423-0b6aa7020352" />>
+
 
 
 ## Project Structure
